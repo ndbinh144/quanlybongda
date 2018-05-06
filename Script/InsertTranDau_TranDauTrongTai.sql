@@ -1,0 +1,29 @@
+﻿USE QLBD
+
+SELECT * FROM ACCOUNT
+
+SELECT * FROM DOIBONG
+
+SELECT * FROM TRANDAU
+
+SELECT * FROM TRONGTAI
+
+SELECT * FROM TRANDAU_TRONGTAI
+
+INSERT INTO TRANDAU
+VALUES ('TD001', '2017-12-20', 'DN', 'SG', 0, 0, N'Chi Lăng', 1),
+		('TD002', '2017-12-21','HN', 'LA', 0, 0, N'Hàng Đẫy', 1),
+		('TD003', '2017-12-22','SG', 'SLNA', 0, 0,  N'Vinh',1)
+
+INSERT INTO TRANDAU_TRONGTAI
+VALUES ('TD001', 'TT01'),
+	   ('TD001', 'TT05'),
+	   ('TD001', 'TT09'),
+	   ('TD002', 'TT02'),
+	   ('TD002', 'TT06'),
+	   ('TD002', 'TT07'),
+	   ('TD003', 'TT03'),
+	   ('TD003', 'TT05'),
+	   ('TD003', 'TT08')
+		
+
